@@ -33,8 +33,8 @@ function managePerson(arr, rowSeats) {
 }
 
 function printSeats(seats) {
-	for(let i=1; i<=seats.length; i++) {
-		console.log(`Baris ${i} : `, seats[i-1])
+	for(let i=0; i<seats.length; i++) {
+		console.log(`Baris ${i} : `, seats[i]);
 	}
 }
 
