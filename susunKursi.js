@@ -8,6 +8,8 @@
 // Baris 1 :  [ 'b', 'e', 'h' ]
 // Baris 2 :  [ 'c', 'f', 'i' ]
 
+'use strict'
+
 function generateSeats(row) {
 	let seats = [];
 	for(let i=0; i<row; i++) {
